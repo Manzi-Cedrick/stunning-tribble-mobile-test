@@ -47,11 +47,7 @@ function RootLayoutNav() {
   const {id} = useLocalSearchParams()
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      {/* <Stack>
-        <Stack.Screen name='(tabs)'/>
-        <Stack.Screen name={`product/${id}`}/>
-      </Stack> */}
-      <Slot></Slot>
+      <Slot/>
     </ThemeProvider>
   );
 }
