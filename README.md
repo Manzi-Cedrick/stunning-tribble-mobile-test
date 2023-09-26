@@ -52,15 +52,22 @@ This mobile application is built using the following technologies and libraries:
 2. Tap on the "Menu" icon in the bottom navigation menu.
 3. Verify that the app navigates to the menu page.
 
-![Home Screen](/src/assets/images/menu.png) 
 
 ### Test Case 2: Product to Checkout
 1. Start at the menu screen.
 2. Tap on the "Checkout" icon in the bottom navigation menu.
 3. Verify that the app navigates to the checkout screen.
 
-![Home Screen](/src/assets/images/product-image.png) -> ![Settings Page](/src/assets/images/checkout-page.png)
+## Screenshots
+To illustrate the test cases, here are the corresponding screenshots:
 
+| Before Navigation (Menu Screen) | After Navigation (Single Product Page) |
+|---------------------------------|-----------------------------|
+| ![Home Screen](/src/assets/images/menu.png) | ![Menu Page](/src/assets/images/product-image.png) |
+
+| Before Navigation (Product Screen) | After Navigation (Checkout Page) |
+|---------------------------------|---------------------------------|
+| ![Menu Screen](/src/assets/images/product-image.png) | ![Checkout Page](/src/assets/images/checkout-page.png) |
 ## Conclusion
 Mobile testing is essential to ensure the functionality and user experience of your mobile application. By following the steps outlined in this README, you can effectively test root navigation and other critical aspects of your app. Document any issues encountered during testing and collaborate with your development team to resolve them.
 
