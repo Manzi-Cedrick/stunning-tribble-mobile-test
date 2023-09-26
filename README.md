@@ -37,7 +37,7 @@ This mobile application is built using the following technologies and libraries:
 
 - **Async Storage**: A simple, built with custom encryption allowance, asynchronous, persistent, key-value storage system for React Native.
 
-- **Expo Router**: A simple, built with custom encryption allowance, asynchronous, persistent, key-value storage system for React Native.
+- **Expo Router**: File-based router for React Native and web applications. It allows you to manage navigation between screens in your app, allowing users to move seamlessly between different parts of your app's UI, using the same components on multiple platforms (Android, iOS, and web).
 
 - **Expo Image**: A module for handling images in Expo applications.
 
