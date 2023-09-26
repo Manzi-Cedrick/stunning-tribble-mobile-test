@@ -52,7 +52,7 @@ This mobile application is built using the following technologies and libraries:
 2. Tap on the "Menu" icon in the bottom navigation menu.
 3. Verify that the app navigates to the menu page.
 
-![Home Screen](/src/assets/images/menu.png) -> ![Profile Page](/src/assets/images/product-image.png)
+![Home Screen](/src/assets/images/menu.png) 
 
 ### Test Case 2: Product to Checkout
 1. Start at the menu screen.
