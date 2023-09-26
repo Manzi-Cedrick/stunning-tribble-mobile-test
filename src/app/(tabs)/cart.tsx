@@ -20,7 +20,7 @@ const staticCartItems = [
     {
         id: 1,
         product: {
-            name: "Coffee",
+            name: "African donut milk",
             image: "https://s3-alpha-sig.figma.com/img/3fee/85b8/767c901f27b0dbe26a76f3d5cc1f80ae?Expires=1696809600&Signature=WAddpVz9flCnxANHW1DwCrxM-z~8w6MIEpmAdZ0KSyKW56dQqK0ogn0OOVs395Oh2FsFVuAwZdcJoPBTPq6NzdmL10IaJczAp7Zn22W2I1t0uxm0rAze0FkjXCy9em9Wa-zdtsbafunuvTtD5ab7nP39kOik85V99ChUDS8S8j6Hbv8Xc99WBHgFrZANgNwfyIsXDPVEpyj2KtVnqRuNCGl4x6GG6JpGl5rjakfyQTNYhV54OlQtvlUv2grpepxYFmqJZVWla2~VNf-AnYCk~T73mYJLfnduTPhQZFe8r3UmI-16yHwh0HfU9fcrxMTKmiGsdijl0P-9iG0F5Dxnwg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             price: 30,
             quantity_available: 10
@@ -29,8 +29,8 @@ const staticCartItems = [
     }, {
         id: 2,
         product: {
-            name: "Tea",
-            image: "https://s3-alpha-sig.figma.com/img/3fee/85b8/767c901f27b0dbe26a76f3d5cc1f80ae?Expires=1696809600&Signature=WAddpVz9flCnxANHW1DwCrxM-z~8w6MIEpmAdZ0KSyKW56dQqK0ogn0OOVs395Oh2FsFVuAwZdcJoPBTPq6NzdmL10IaJczAp7Zn22W2I1t0uxm0rAze0FkjXCy9em9Wa-zdtsbafunuvTtD5ab7nP39kOik85V99ChUDS8S8j6Hbv8Xc99WBHgFrZANgNwfyIsXDPVEpyj2KtVnqRuNCGl4x6GG6JpGl5rjakfyQTNYhV54OlQtvlUv2grpepxYFmqJZVWla2~VNf-AnYCk~T73mYJLfnduTPhQZFe8r3UmI-16yHwh0HfU9fcrxMTKmiGsdijl0P-9iG0F5Dxnwg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            name: "Asari(Yams)",
+            image: "https://s3-alpha-sig.figma.com/img/8127/df7c/f3e1712529caa0b55e1663646c798fd3?Expires=1696809600&Signature=eNfvWm5DY8UzdrqR64-ee59sdySO9S23Fd6w-mBCAzqG8QHws1E3QaWQdiScio7j3zpzVRmko0NzqK-bucs9CK0odfEXb15KTog8-9VlNA9yry~eNfSvnXZd3kHJeYuuPm7xiCi8rHTmXGi2Q0PUpPQC22DF2ueQcy9Wmjo5uTCLPLwMp12CQ1kkyQwI8J9vHEuxv~h9e~AOFH-ioy1g901jYC2K0HQhdScSicaxLailC1-CR5~Hu6aNd4u3m0XNd4tLko-O2zwH3hE6YClKRo8~vWLGpdP6FYT4LLY4L0OnToCCaNgv~FNyKYZUIw88-l9~lr4MdzED8gehzgnXvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
             price: 30,
             quantity_available: 15
         },
@@ -45,7 +45,7 @@ const CartItemComponent: React.FC = (item:any) => {
         <View className="flex-row border justify-between border-slate-100 flex p-2 mt-3 rounded-md items-center">
             <View className="flex flex-row gap-x-4">
             <View>
-              <Image className='bg-[#0553] w-20 h-20 mx-auto' source={item.product.image}
+              <Image className='w-20 h-20 mx-auto' source={item.product.image}
                         placeholder={blurhash}
                         contentFit="cover"
                         transition={1000}/>
